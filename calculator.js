@@ -20,10 +20,10 @@ const operator=prompt("Please choose the operation (+, -, /, *) : ");
         else if(operator==="*"){
             console.log(`${num1} * ${num2} = ${Number(num1)*Number(num2)}`);
         }
-        else if(operator==="+"){
+        else if(operator==="-"){
             console.log(`${num1} - ${num2} = ${Number(num1)-Number(num2)}`);
         }
-        else if(operator==="+"){
+        else if(operator==="/"){
             console.log(`${num1} / ${num2} = ${Number(num1)/Number(num2)}`);
         }
         else{
